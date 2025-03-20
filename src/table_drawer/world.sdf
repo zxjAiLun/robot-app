@@ -1,0 +1,89 @@
+<sdf version="1.6">
+  <world name="table_world">
+    <physics name="1ms" type="dart">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+
+    
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <ambient>0.440506 0.236970 0.689023 0.970577</ambient>
+            <diffuse>0.973346 0.623336 0.105298 0.898041</diffuse>
+            <specular>0.165998 0.589134 0.519008 0.893618</specular>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    
+    <include>
+      <uri>file:///home/ubuntu/ros2_ws/src/table_drawer/table_with_drawers.sdf</uri>
+      <pose>0.8 0 0 0 0 0</pose>
+    </include>
+
+    <!-- 添加一个立方体 -->
+    <model name="target_cube">
+      <pose>0.8 0.0 0.775 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>0.1</mass>
+          <inertia>
+            <ixx>0.000083</ixx>
+            <ixy>0.0</ixy>
+            <ixz>0.0</ixz>
+            <iyy>0.000083</iyy>
+            <iyz>0.0</iyz>
+            <izz>0.000083</izz>
+          </inertia>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.02505 0.090 0.025</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.02505 0.090 0.025</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+            <specular>1 0 0 1</specular>
+          </material>
+        </visual>
+      </link>
+      <static>false</static>
+    </model>
+
+    
+    <model name="gen3">
+      <include>
+        <uri>file:///home/ubuntu/ros2_ws/src/ros2_kortex/kortex_description/robots/gen3_2f85.urdf</uri>
+        <pose>0 0 0 0 0 0</pose>
+      </include>
+    </model>
+
+  </world>
+</sdf>

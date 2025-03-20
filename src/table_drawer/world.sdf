@@ -41,7 +41,7 @@
 
     <!-- 添加一个立方体 -->
     <model name="target_cube">
-      <pose>0.8 0.0 0.775 0 0 0</pose>
+      <pose>0.8 0.0 0.55 0 0 0</pose>
       <link name="link">
         <inertial>
           <mass>0.1</mass>

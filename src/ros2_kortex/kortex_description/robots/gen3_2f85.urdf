@@ -141,7 +141,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/ubuntu/ros2_ws/src/ros2_kortex/kortex_description/arms/gen3/7dof/meshes/base_link.dae" />
+        <mesh filename="package://kortex_description/arms/gen3/7dof/meshes/base_link.dae" />
       </geometry>
       <material name="">
         <color rgba="0.728215 0.350242 0.437739 0.911783" />
@@ -150,7 +150,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/ubuntu/ros2_ws/src/ros2_kortex/kortex_description/arms/gen3/7dof/meshes/base_link.dae" />
+        <mesh filename="package://kortex_description/arms/gen3/7dof/meshes/base_link.dae" />
       </geometry>
     </collision>
   </link>
@@ -163,7 +163,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/ubuntu/ros2_ws/src/ros2_kortex/kortex_description/arms/gen3/7dof/meshes/shoulder_link.dae" />
+        <mesh filename="package://kortex_description/arms/gen3/7dof/meshes/shoulder_link.dae" />
       </geometry>
       <material name="">
         <color rgba="0.791004 0.729177 0.724967 0.809488" />
@@ -172,7 +172,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/ubuntu/ros2_ws/src/ros2_kortex/kortex_description/arms/gen3/7dof/meshes/shoulder_link.dae" />
+        <mesh filename="package://kortex_description/arms/gen3/7dof/meshes/shoulder_link.dae" />
       </geometry>
     </collision>
   </link>
@@ -192,7 +192,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/ubuntu/ros2_ws/src/ros2_kortex/kortex_description/arms/gen3/7dof/meshes/half_arm_1_link.dae" />
+        <mesh filename="package://kortex_description/arms/gen3/7dof/meshes/half_arm_1_link.dae" />
       </geometry>
       <material name="">
         <color rgba="0.829827 0.865245 0.414307 0.923495" />
@@ -201,7 +201,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/ubuntu/ros2_ws/src/ros2_kortex/kortex_description/arms/gen3/7dof/meshes/half_arm_1_link.dae" />
+        <mesh filename="package://kortex_description/arms/gen3/7dof/meshes/half_arm_1_link.dae" />
       </geometry>
     </collision>
   </link>
@@ -221,7 +221,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/ubuntu/ros2_ws/src/ros2_kortex/kortex_description/arms/gen3/7dof/meshes/half_arm_2_link.dae" />
+        <mesh filename="package://kortex_description/arms/gen3/7dof/meshes/half_arm_2_link.dae" />
       </geometry>
       <material name="">
         <color rgba="0.946555 0.166579 0.593042 0.884779" />
@@ -230,7 +230,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/ubuntu/ros2_ws/src/ros2_kortex/kortex_description/arms/gen3/7dof/meshes/half_arm_2_link.dae" />
+        <mesh filename="package://kortex_description/arms/gen3/7dof/meshes/half_arm_2_link.dae" />
       </geometry>
     </collision>
   </link>
@@ -250,7 +250,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/ubuntu/ros2_ws/src/ros2_kortex/kortex_description/arms/gen3/7dof/meshes/forearm_link.dae" />
+        <mesh filename="package://kortex_description/arms/gen3/7dof/meshes/forearm_link.dae" />
       </geometry>
       <material name="">
         <color rgba="0.623273 0.236520 0.864465 0.985567" />
@@ -259,7 +259,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/ubuntu/ros2_ws/src/ros2_kortex/kortex_description/arms/gen3/7dof/meshes/forearm_link.dae" />
+        <mesh filename="package://kortex_description/arms/gen3/7dof/meshes/forearm_link.dae" />
       </geometry>
     </collision>
   </link>
@@ -279,7 +279,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/ubuntu/ros2_ws/src/ros2_kortex/kortex_description/arms/gen3/7dof/meshes/spherical_wrist_1_link.dae" />
+        <mesh filename="package://kortex_description/arms/gen3/7dof/meshes/spherical_wrist_1_link.dae" />
       </geometry>
       <material name="">
         <color rgba="0.871700 0.480836 0.569835 0.958073" />
@@ -288,7 +288,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/ubuntu/ros2_ws/src/ros2_kortex/kortex_description/arms/gen3/7dof/meshes/spherical_wrist_1_link.dae" />
+        <mesh filename="package://kortex_description/arms/gen3/7dof/meshes/spherical_wrist_1_link.dae" />
       </geometry>
     </collision>
   </link>
@@ -308,7 +308,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/ubuntu/ros2_ws/src/ros2_kortex/kortex_description/arms/gen3/7dof/meshes/spherical_wrist_2_link.dae" />
+        <mesh filename="package://kortex_description/arms/gen3/7dof/meshes/spherical_wrist_2_link.dae" />
       </geometry>
       <material name="">
         <color rgba="0.929224 0.545177 0.964911 0.899979" />
@@ -317,7 +317,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/ubuntu/ros2_ws/src/ros2_kortex/kortex_description/arms/gen3/7dof/meshes/spherical_wrist_2_link.dae" />
+        <mesh filename="package://kortex_description/arms/gen3/7dof/meshes/spherical_wrist_2_link.dae" />
       </geometry>
     </collision>
   </link>
@@ -337,13 +337,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/ubuntu/ros2_ws/src/ros2_kortex/kortex_description/arms/gen3/7dof/meshes/bracelet_with_vision_link.dae" />
+        <mesh filename="package://kortex_description/arms/gen3/7dof/meshes/bracelet_with_vision_link.dae" />
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/ubuntu/ros2_ws/src/ros2_kortex/kortex_description/arms/gen3/7dof/meshes/bracelet_with_vision_link.dae" />
+        <mesh filename="package://kortex_description/arms/gen3/7dof/meshes/bracelet_with_vision_link.dae" />
       </geometry>
     </collision>
   </link>
@@ -364,12 +364,12 @@
   <link name="gen3_robotiq_85_base_link">
     <visual>
       <geometry>
-        <mesh filename="file:///opt/ros/jazzy/share/robotiq_description/meshes/visual/robotiq_base.dae" />
+        <mesh filename="package://robotiq_description/meshes/visual/robotiq_base.dae" />
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="file:///opt/ros/jazzy/share/robotiq_description/meshes/collision/robotiq_base.stl" />
+        <mesh filename="package://robotiq_description/meshes/collision/robotiq_base.stl" />
       </geometry>
     </collision>
     <inertial>
@@ -381,12 +381,12 @@
   <link name="gen3_robotiq_85_left_knuckle_link">
     <visual>
       <geometry>
-        <mesh filename="file:///opt/ros/jazzy/share/robotiq_description/meshes/visual/left_knuckle.dae" />
+        <mesh filename="package://robotiq_description/meshes/visual/left_knuckle.dae" />
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="file:///opt/ros/jazzy/share/robotiq_description/meshes/collision/left_knuckle.stl" />
+        <mesh filename="package://robotiq_description/meshes/collision/left_knuckle.stl" />
       </geometry>
     </collision>
     <inertial>
@@ -398,12 +398,12 @@
   <link name="gen3_robotiq_85_right_knuckle_link">
     <visual>
       <geometry>
-        <mesh filename="file:///opt/ros/jazzy/share/robotiq_description/meshes/visual/right_knuckle.dae" />
+        <mesh filename="package://robotiq_description/meshes/visual/right_knuckle.dae" />
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="file:///opt/ros/jazzy/share/robotiq_description/meshes/collision/right_knuckle.stl" />
+        <mesh filename="package://robotiq_description/meshes/collision/right_knuckle.stl" />
       </geometry>
     </collision>
     <inertial>
@@ -415,12 +415,12 @@
   <link name="gen3_robotiq_85_left_finger_link">
     <visual>
       <geometry>
-        <mesh filename="file:///opt/ros/jazzy/share/robotiq_description/meshes/visual/left_finger.dae" />
+        <mesh filename="package://robotiq_description/meshes/visual/left_finger.dae" />
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="file:///opt/ros/jazzy/share/robotiq_description/meshes/collision/left_finger.stl" />
+        <mesh filename="package://robotiq_description/meshes/collision/left_finger.stl" />
       </geometry>
     </collision>
     <inertial>
@@ -432,12 +432,12 @@
   <link name="gen3_robotiq_85_right_finger_link">
     <visual>
       <geometry>
-        <mesh filename="file:///opt/ros/jazzy/share/robotiq_description/meshes/visual/right_finger.dae" />
+        <mesh filename="package://robotiq_description/meshes/visual/right_finger.dae" />
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="file:///opt/ros/jazzy/share/robotiq_description/meshes/collision/right_finger.stl" />
+        <mesh filename="package://robotiq_description/meshes/collision/right_finger.stl" />
       </geometry>
     </collision>
     <inertial>
@@ -449,12 +449,12 @@
   <link name="gen3_robotiq_85_left_inner_knuckle_link">
     <visual>
       <geometry>
-        <mesh filename="file:///opt/ros/jazzy/share/robotiq_description/meshes/visual/left_inner_knuckle.dae" />
+        <mesh filename="package://robotiq_description/meshes/visual/left_inner_knuckle.dae" />
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="file:///opt/ros/jazzy/share/robotiq_description/meshes/collision/left_inner_knuckle.stl" />
+        <mesh filename="package://robotiq_description/meshes/collision/left_inner_knuckle.stl" />
       </geometry>
     </collision>
     <inertial>
@@ -466,12 +466,12 @@
   <link name="gen3_robotiq_85_right_inner_knuckle_link">
     <visual>
       <geometry>
-        <mesh filename="file:///opt/ros/jazzy/share/robotiq_description/meshes/visual/right_inner_knuckle.dae" />
+        <mesh filename="package://robotiq_description/meshes/visual/right_inner_knuckle.dae" />
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="file:///opt/ros/jazzy/share/robotiq_description/meshes/collision/right_inner_knuckle.stl" />
+        <mesh filename="package://robotiq_description/meshes/collision/right_inner_knuckle.stl" />
       </geometry>
     </collision>
     <inertial>
@@ -483,12 +483,12 @@
   <link name="gen3_robotiq_85_left_finger_tip_link">
     <visual>
       <geometry>
-        <mesh filename="file:///opt/ros/jazzy/share/robotiq_description/meshes/visual/left_finger_tip.dae" />
+        <mesh filename="package://robotiq_description/meshes/visual/left_finger_tip.dae" />
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="file:///opt/ros/jazzy/share/robotiq_description/meshes/collision/left_finger_tip.stl" />
+        <mesh filename="package://robotiq_description/meshes/collision/left_finger_tip.stl" />
       </geometry>
       <surface>
         <friction>
@@ -518,12 +518,12 @@
   <link name="gen3_robotiq_85_right_finger_tip_link">
     <visual>
       <geometry>
-        <mesh filename="file:///opt/ros/jazzy/share/robotiq_description/meshes/visual/right_finger_tip.dae" />
+        <mesh filename="package://robotiq_description/meshes/visual/right_finger_tip.dae" />
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="file:///opt/ros/jazzy/share/robotiq_description/meshes/collision/right_finger_tip.stl" />
+        <mesh filename="package://robotiq_description/meshes/collision/right_finger_tip.stl" />
       </geometry>
     </collision>
     <surface>
@@ -625,7 +625,7 @@
     <visual>
       <origin rpy="1.5707963267948966 0 1.5707963267948966" xyz="0.00987 -0.02 0" />
       <geometry>
-        <mesh filename="file:///opt/ros/jazzy/share/realsense2_description/meshes/d435.dae" />
+        <mesh filename="package://realsense2_description/meshes/d435.dae" />
       </geometry>
       <material name="camera_material">
         <color rgba="0.083924 0.132372 0.091349 1.000000" />

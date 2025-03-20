@@ -11,7 +11,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     # 获取表格抽屉世界文件的路径
-    world_file = '/home/ubuntu/ros2_ws/src/table_drawer/world.sdf'
+    world_file = os.path.join(get_package_share_directory('table_drawer'), 'world.sdf')
     
     # 声明参数
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
@@ -23,7 +23,7 @@ def generate_launch_description():
     )
     
     # 读取机器人描述
-    robot_description = open('/home/ubuntu/ros2_ws/src/ros2_kortex/kortex_description/robots/gen3_2f85.urdf', 'r').read()
+    robot_description = open(os.path.join(get_package_share_directory('kortex_description'), 'robots/gen3_2f85.urdf'), 'r').read()
     
     # 启动机器人状态发布器
     robot_state_publisher = Node(
@@ -53,7 +53,7 @@ def generate_launch_description():
         parameters=[
             {'robot_description': robot_description},
             {'use_sim_time': use_sim_time},
-            '/home/ubuntu/ros2_ws/src/grasp_training/config/gen3_controllers.yaml'
+            os.path.join(get_package_share_directory('grasp_training'), 'config/gen3_controllers.yaml')
         ],
         output='screen'
     )

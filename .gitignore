@@ -32,4 +32,19 @@ var/
 *.swo
 
 # Nested git repositories
-src/ros2_kortex/ 
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build files
+node_modules/
+dist/
+_site/
+.sass-cache/ 

@@ -72,6 +72,7 @@
 /home/ubuntu/DishBot/install/kortex_description/share/kortex_description/robots/gen3_2f85.urdf
 /home/ubuntu/DishBot/install/kortex_description/share/kortex_description/robots/gen3_robotiq_2f_85.xacro
 /home/ubuntu/DishBot/install/kortex_description/share/kortex_description/robots/kinova.urdf.xacro
+/home/ubuntu/DishBot/install/kortex_description/share/kortex_description/robots/kinova_gen3.urdf
 /home/ubuntu/DishBot/install/kortex_description/share/kortex_description/robots/gen3.xacro
 /home/ubuntu/DishBot/install/kortex_description/share/kortex_description/robots/gen3_robotiq_2f_140.xacro
 /home/ubuntu/DishBot/install/kortex_description/share/kortex_description/robots/kortex_robot.xacro

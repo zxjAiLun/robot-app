@@ -1,0 +1,42 @@
+[0.024s] Invoking command in '/home/ubuntu/DishBot/build/disbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/grasp_training:/home/ubuntu/ros2_ws/install/domain_randomization:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/DishBot/src/disbot_controller -DCMAKE_INSTALL_PREFIX=/home/ubuntu/DishBot/install/disbot_controller
+[1.190s] -- The C compiler identification is GNU 13.3.0
+[1.441s] -- The CXX compiler identification is GNU 13.3.0
+[1.477s] -- Detecting C compiler ABI info
+[1.734s] -- Detecting C compiler ABI info - done
+[1.746s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.746s] -- Detecting C compile features
+[1.747s] -- Detecting C compile features - done
+[1.762s] -- Detecting CXX compiler ABI info
+[1.955s] -- Detecting CXX compiler ABI info - done
+[1.975s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.976s] -- Detecting CXX compile features
+[1.976s] -- Detecting CXX compile features - done
+[2.013s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.325s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.609s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.844s] -- Added test 'lint_cmake' to check CMake code style
+[2.848s] -- Added test 'xmllint' to check XML markup files
+[2.854s] -- Configuring done (2.8s)
+[2.861s] -- Generating done (0.0s)
+[2.868s] -- Build files have been written to: /home/ubuntu/DishBot/build/disbot_controller
+[2.877s] Invoked command in '/home/ubuntu/DishBot/build/disbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/grasp_training:/home/ubuntu/ros2_ws/install/domain_randomization:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/DishBot/src/disbot_controller -DCMAKE_INSTALL_PREFIX=/home/ubuntu/DishBot/install/disbot_controller
+[2.881s] Invoking command in '/home/ubuntu/DishBot/build/disbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/grasp_training:/home/ubuntu/ros2_ws/install/domain_randomization:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/DishBot/build/disbot_controller -- -j12 -l12
+[2.964s] Invoked command in '/home/ubuntu/DishBot/build/disbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/grasp_training:/home/ubuntu/ros2_ws/install/domain_randomization:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/DishBot/build/disbot_controller -- -j12 -l12
+[2.979s] Invoking command in '/home/ubuntu/DishBot/build/disbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/grasp_training:/home/ubuntu/ros2_ws/install/domain_randomization:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/DishBot/build/disbot_controller
+[2.991s] -- Install configuration: ""
+[2.991s] -- Installing: /home/ubuntu/DishBot/install/disbot_controller/share/ament_index/resource_index/package_run_dependencies/disbot_controller
+[2.991s] -- Installing: /home/ubuntu/DishBot/install/disbot_controller/share/ament_index/resource_index/parent_prefix_path/disbot_controller
+[2.992s] -- Installing: /home/ubuntu/DishBot/install/disbot_controller/share/disbot_controller/environment/ament_prefix_path.sh
+[2.992s] -- Installing: /home/ubuntu/DishBot/install/disbot_controller/share/disbot_controller/environment/ament_prefix_path.dsv
+[2.993s] -- Installing: /home/ubuntu/DishBot/install/disbot_controller/share/disbot_controller/environment/path.sh
+[2.993s] -- Installing: /home/ubuntu/DishBot/install/disbot_controller/share/disbot_controller/environment/path.dsv
+[2.993s] -- Installing: /home/ubuntu/DishBot/install/disbot_controller/share/disbot_controller/local_setup.bash
+[2.993s] -- Installing: /home/ubuntu/DishBot/install/disbot_controller/share/disbot_controller/local_setup.sh
+[2.993s] -- Installing: /home/ubuntu/DishBot/install/disbot_controller/share/disbot_controller/local_setup.zsh
+[2.994s] -- Installing: /home/ubuntu/DishBot/install/disbot_controller/share/disbot_controller/local_setup.dsv
+[2.994s] -- Installing: /home/ubuntu/DishBot/install/disbot_controller/share/disbot_controller/package.dsv
+[2.994s] -- Installing: /home/ubuntu/DishBot/install/disbot_controller/share/ament_index/resource_index/packages/disbot_controller
+[2.994s] -- Installing: /home/ubuntu/DishBot/install/disbot_controller/share/disbot_controller/cmake/disbot_controllerConfig.cmake
+[2.995s] -- Installing: /home/ubuntu/DishBot/install/disbot_controller/share/disbot_controller/cmake/disbot_controllerConfig-version.cmake
+[2.996s] -- Installing: /home/ubuntu/DishBot/install/disbot_controller/share/disbot_controller/package.xml
+[2.997s] Invoked command in '/home/ubuntu/DishBot/build/disbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/grasp_training:/home/ubuntu/ros2_ws/install/domain_randomization:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/DishBot/build/disbot_controller

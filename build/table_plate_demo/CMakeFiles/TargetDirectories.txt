@@ -1,0 +1,9 @@
+/home/ubuntu/DishBot/build/table_plate_demo/CMakeFiles/uninstall.dir
+/home/ubuntu/DishBot/build/table_plate_demo/CMakeFiles/table_plate_demo_uninstall.dir
+/home/ubuntu/DishBot/build/table_plate_demo/CMakeFiles/test.dir
+/home/ubuntu/DishBot/build/table_plate_demo/CMakeFiles/edit_cache.dir
+/home/ubuntu/DishBot/build/table_plate_demo/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/DishBot/build/table_plate_demo/CMakeFiles/list_install_components.dir
+/home/ubuntu/DishBot/build/table_plate_demo/CMakeFiles/install.dir
+/home/ubuntu/DishBot/build/table_plate_demo/CMakeFiles/install/local.dir
+/home/ubuntu/DishBot/build/table_plate_demo/CMakeFiles/install/strip.dir

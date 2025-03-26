@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ubuntu/ros2_ws/install/kortex_driver/include/**",
+        "/home/ubuntu/ros2_ws/install/kortex_api/include/**",
+        "/opt/ros/jazzy/include/**",
+        "/home/ubuntu/DishBot/src/disbot_controller/include/**",
+        "/home/ubuntu/DishBot/src/ros2_kortex/kortex_driver/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,4 @@
+source;share/disbot_controller/local_setup.bash
+source;share/disbot_controller/local_setup.dsv
+source;share/disbot_controller/local_setup.sh
+source;share/disbot_controller/local_setup.zsh

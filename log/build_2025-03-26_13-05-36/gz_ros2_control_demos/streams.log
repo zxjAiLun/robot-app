@@ -1,0 +1,141 @@
+[0.017s] Invoking command in '/home/ubuntu/DishBot/build/gz_ros2_control_demos': AMENT_PREFIX_PATH=/home/ubuntu/DishBot/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/DishBot/install/gz_ros2_control:/home/ubuntu/DishBot/install/disbot_controller:/home/ubuntu/ros2_ws/install/kortex_moveit_config:/home/ubuntu/ros2_ws/install/kortex_bringup:/home/ubuntu/ros2_ws/install/kortex_driver:/home/ubuntu/ros2_ws/install/kinova_gen3_lite_moveit_config:/home/ubuntu/ros2_ws/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/ubuntu/ros2_ws/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/ubuntu/ros2_ws/install/kortex_description:/home/ubuntu/ros2_ws/install/kortex_api:/home/ubuntu/ros2_ws/install/kinova_scene_demo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntu/ros2_ws/install/grasp_training:/home/ubuntu/ros2_ws/install/domain_randomization:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/DishBot/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ubuntu/DishBot/src/gz_ros2_control/gz_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/ubuntu/DishBot/install/gz_ros2_control_demos
+[0.114s] -- The C compiler identification is GNU 13.3.0
+[0.223s] -- The CXX compiler identification is GNU 13.3.0
+[0.274s] -- Detecting C compiler ABI info
+[0.485s] -- Detecting C compiler ABI info - done
+[0.498s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.498s] -- Detecting C compile features
+[0.499s] -- Detecting C compile features - done
+[0.516s] -- Detecting CXX compiler ABI info
+[0.760s] -- Detecting CXX compiler ABI info - done
+[0.772s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.772s] -- Detecting CXX compile features
+[0.773s] -- Detecting CXX compile features - done
+[0.780s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.027s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.277s] -- Found control_msgs: 5.3.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+[1.404s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.432s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.479s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.515s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.970s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.119s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.131s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.346s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.395s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.434s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.637s] -- Found rclcpp_action: 28.1.6 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[2.702s] -- Found ament_cmake_gtest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[2.714s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.979s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.987s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.987s] -- Configured cppcheck include dirs: 
+[2.987s] -- Configured cppcheck exclude dirs and/or files: 
+[2.994s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.995s] -- Configured cpplint exclude dirs and/or files: 
+[2.997s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.997s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.000s] -- Added test 'lint_cmake' to check CMake code style
+[3.003s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.010s] -- Added test 'uncrustify' to check C / C++ code style
+[3.010s] -- Configured uncrustify additional arguments: 
+[3.012s] -- Added test 'xmllint' to check XML markup files
+[3.017s] -- Configuring done (3.0s)
+[3.095s] -- Generating done (0.1s)
+[3.121s] -- Build files have been written to: /home/ubuntu/DishBot/build/gz_ros2_control_demos
+[3.141s] Invoked command in '/home/ubuntu/DishBot/build/gz_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/DishBot/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/DishBot/install/gz_ros2_control:/home/ubuntu/DishBot/install/disbot_controller:/home/ubuntu/ros2_ws/install/kortex_moveit_config:/home/ubuntu/ros2_ws/install/kortex_bringup:/home/ubuntu/ros2_ws/install/kortex_driver:/home/ubuntu/ros2_ws/install/kinova_gen3_lite_moveit_config:/home/ubuntu/ros2_ws/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/ubuntu/ros2_ws/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/ubuntu/ros2_ws/install/kortex_description:/home/ubuntu/ros2_ws/install/kortex_api:/home/ubuntu/ros2_ws/install/kinova_scene_demo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntu/ros2_ws/install/grasp_training:/home/ubuntu/ros2_ws/install/domain_randomization:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/DishBot/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ubuntu/DishBot/src/gz_ros2_control/gz_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/ubuntu/DishBot/install/gz_ros2_control_demos
+[3.141s] Invoking command in '/home/ubuntu/DishBot/build/gz_ros2_control_demos': AMENT_PREFIX_PATH=/home/ubuntu/DishBot/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/DishBot/install/gz_ros2_control:/home/ubuntu/DishBot/install/disbot_controller:/home/ubuntu/ros2_ws/install/kortex_moveit_config:/home/ubuntu/ros2_ws/install/kortex_bringup:/home/ubuntu/ros2_ws/install/kortex_driver:/home/ubuntu/ros2_ws/install/kinova_gen3_lite_moveit_config:/home/ubuntu/ros2_ws/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/ubuntu/ros2_ws/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/ubuntu/ros2_ws/install/kortex_description:/home/ubuntu/ros2_ws/install/kortex_api:/home/ubuntu/ros2_ws/install/kinova_scene_demo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntu/ros2_ws/install/grasp_training:/home/ubuntu/ros2_ws/install/domain_randomization:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/DishBot/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/DishBot/build/gz_ros2_control_demos -- -j12 -l12
+[3.253s] [  7%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[3.253s] [ 14%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_position.cpp.o[0m
+[3.254s] [ 21%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_position.cpp.o[0m
+[3.262s] [ 42%] [32mBuilding CXX object CMakeFiles/example_ackermann_drive.dir/examples/example_ackermann_drive.cpp.o[0m
+[3.263s] [ 35%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[3.263s] [ 35%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[3.263s] [ 50%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[10.698s] [ 57%] [32m[1mLinking CXX executable example_ackermann_drive[0m
+[11.054s] [ 57%] Built target example_ackermann_drive
+[11.362s] [ 64%] [32m[1mLinking CXX executable example_velocity[0m
+[11.445s] [ 71%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[11.455s] [ 78%] [32m[1mLinking CXX executable example_gripper[0m
+[11.514s] [ 85%] [32m[1mLinking CXX executable example_diff_drive[0m
+[11.740s] [ 85%] Built target example_velocity
+[11.741s] [ 85%] Built target example_tricycle_drive
+[11.794s] [ 85%] Built target example_gripper
+[11.832s] [ 85%] Built target example_diff_drive
+[11.894s] [ 92%] [32m[1mLinking CXX executable example_position[0m
+[12.184s] [100%] [32m[1mLinking CXX executable example_effort[0m
+[12.214s] [100%] Built target example_position
+[12.475s] [100%] Built target example_effort
+[12.496s] Invoked command in '/home/ubuntu/DishBot/build/gz_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/DishBot/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/DishBot/install/gz_ros2_control:/home/ubuntu/DishBot/install/disbot_controller:/home/ubuntu/ros2_ws/install/kortex_moveit_config:/home/ubuntu/ros2_ws/install/kortex_bringup:/home/ubuntu/ros2_ws/install/kortex_driver:/home/ubuntu/ros2_ws/install/kinova_gen3_lite_moveit_config:/home/ubuntu/ros2_ws/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/ubuntu/ros2_ws/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/ubuntu/ros2_ws/install/kortex_description:/home/ubuntu/ros2_ws/install/kortex_api:/home/ubuntu/ros2_ws/install/kinova_scene_demo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntu/ros2_ws/install/grasp_training:/home/ubuntu/ros2_ws/install/domain_randomization:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/DishBot/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/DishBot/build/gz_ros2_control_demos -- -j12 -l12
+[12.500s] Invoking command in '/home/ubuntu/DishBot/build/gz_ros2_control_demos': AMENT_PREFIX_PATH=/home/ubuntu/DishBot/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/DishBot/install/gz_ros2_control:/home/ubuntu/DishBot/install/disbot_controller:/home/ubuntu/ros2_ws/install/kortex_moveit_config:/home/ubuntu/ros2_ws/install/kortex_bringup:/home/ubuntu/ros2_ws/install/kortex_driver:/home/ubuntu/ros2_ws/install/kinova_gen3_lite_moveit_config:/home/ubuntu/ros2_ws/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/ubuntu/ros2_ws/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/ubuntu/ros2_ws/install/kortex_description:/home/ubuntu/ros2_ws/install/kortex_api:/home/ubuntu/ros2_ws/install/kinova_scene_demo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntu/ros2_ws/install/grasp_training:/home/ubuntu/ros2_ws/install/domain_randomization:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/DishBot/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ubuntu/DishBot/build/gz_ros2_control_demos
+[12.527s] -- Install configuration: ""
+[12.527s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch
+[12.527s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_position.launch.py
+[12.528s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/diff_drive_example_namespaced.launch.py
+[12.529s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_effort.launch.py
+[12.530s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/diff_drive_example.launch.py
+[12.530s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_velocity.launch.py
+[12.531s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_effort.launch.py
+[12.531s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/pendulum_example_position.launch.py
+[12.532s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_effort.launch.xml
+[12.533s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/ackermann_drive_example.launch.py
+[12.534s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/pendulum_example_effort.launch.py
+[12.534s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_position.launch.xml
+[12.534s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/tricycle_drive_example.launch.py
+[12.535s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/mecanum_drive_example.launch.py
+[12.536s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_position.launch.py
+[12.536s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config
+[12.536s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/diff_drive_controller.yaml
+[12.537s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_velocity.yaml
+[12.537s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/gripper_controller_effort.yaml
+[12.538s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/tricycle_drive_controller.yaml
+[12.538s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/mecanum_drive_controller.yaml
+[12.539s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_position.yaml
+[12.539s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/gripper_controller_position.yaml
+[12.540s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_effort.yaml
+[12.540s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/ackermann_drive_controller.yaml
+[12.541s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//sdf
+[12.541s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//sdf/test_ackermann_drive.xacro.sdf
+[12.542s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//sdf/test_diff_drive.xacro.sdf
+[12.542s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf
+[12.543s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+[12.543s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[12.544s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[12.544s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_ackermann_drive.xacro.urdf
+[12.545s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[12.545s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_gripper_mimic_joint_effort.xacro.urdf
+[12.546s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[12.546s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[12.547s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_mecanum_drive.xacro.urdf
+[12.547s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_gripper_mimic_joint_position.xacro.urdf
+[12.548s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+[12.549s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_position
+[12.553s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/DishBot/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_position" to ""
+[12.553s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_velocity
+[12.556s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/DishBot/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_velocity" to ""
+[12.556s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_effort
+[12.558s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/DishBot/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_effort" to ""
+[12.558s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_diff_drive
+[12.560s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/DishBot/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_diff_drive" to ""
+[12.561s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_tricycle_drive
+[12.562s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/DishBot/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_tricycle_drive" to ""
+[12.563s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_ackermann_drive
+[12.564s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/DishBot/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_ackermann_drive" to ""
+[12.564s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_gripper
+[12.566s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/DishBot/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_gripper" to ""
+[12.567s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control_demos
+[12.567s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control_demos
+[12.567s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/ament_prefix_path.sh
+[12.568s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/ament_prefix_path.dsv
+[12.568s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/path.sh
+[12.568s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/path.dsv
+[12.568s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.bash
+[12.568s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.sh
+[12.569s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.zsh
+[12.569s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.dsv
+[12.569s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.dsv
+[12.569s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/ament_index/resource_index/packages/gz_ros2_control_demos
+[12.569s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/gz_ros2_control_demosConfig.cmake
+[12.569s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/gz_ros2_control_demosConfig-version.cmake
+[12.569s] -- Installing: /home/ubuntu/DishBot/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.xml
+[12.571s] Invoked command in '/home/ubuntu/DishBot/build/gz_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/DishBot/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/DishBot/install/gz_ros2_control:/home/ubuntu/DishBot/install/disbot_controller:/home/ubuntu/ros2_ws/install/kortex_moveit_config:/home/ubuntu/ros2_ws/install/kortex_bringup:/home/ubuntu/ros2_ws/install/kortex_driver:/home/ubuntu/ros2_ws/install/kinova_gen3_lite_moveit_config:/home/ubuntu/ros2_ws/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/ubuntu/ros2_ws/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/ubuntu/ros2_ws/install/kortex_description:/home/ubuntu/ros2_ws/install/kortex_api:/home/ubuntu/ros2_ws/install/kinova_scene_demo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntu/ros2_ws/install/grasp_training:/home/ubuntu/ros2_ws/install/domain_randomization:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/DishBot/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ubuntu/DishBot/build/gz_ros2_control_demos

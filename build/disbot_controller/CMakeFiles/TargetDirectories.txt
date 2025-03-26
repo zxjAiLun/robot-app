@@ -1,0 +1,9 @@
+/home/ubuntu/DishBot/build/disbot_controller/CMakeFiles/uninstall.dir
+/home/ubuntu/DishBot/build/disbot_controller/CMakeFiles/disbot_controller_uninstall.dir
+/home/ubuntu/DishBot/build/disbot_controller/CMakeFiles/test.dir
+/home/ubuntu/DishBot/build/disbot_controller/CMakeFiles/edit_cache.dir
+/home/ubuntu/DishBot/build/disbot_controller/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/DishBot/build/disbot_controller/CMakeFiles/list_install_components.dir
+/home/ubuntu/DishBot/build/disbot_controller/CMakeFiles/install.dir
+/home/ubuntu/DishBot/build/disbot_controller/CMakeFiles/install/local.dir
+/home/ubuntu/DishBot/build/disbot_controller/CMakeFiles/install/strip.dir

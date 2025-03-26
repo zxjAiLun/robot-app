@@ -1,0 +1,16 @@
+/home/ubuntu/DishBot/install/table_plate_demo/share/table_plate_demo//launch/table_plate_demo.launch.py
+/home/ubuntu/DishBot/install/table_plate_demo/share/ament_index/resource_index/package_run_dependencies/table_plate_demo
+/home/ubuntu/DishBot/install/table_plate_demo/share/ament_index/resource_index/parent_prefix_path/table_plate_demo
+/home/ubuntu/DishBot/install/table_plate_demo/share/table_plate_demo/environment/ament_prefix_path.sh
+/home/ubuntu/DishBot/install/table_plate_demo/share/table_plate_demo/environment/ament_prefix_path.dsv
+/home/ubuntu/DishBot/install/table_plate_demo/share/table_plate_demo/environment/path.sh
+/home/ubuntu/DishBot/install/table_plate_demo/share/table_plate_demo/environment/path.dsv
+/home/ubuntu/DishBot/install/table_plate_demo/share/table_plate_demo/local_setup.bash
+/home/ubuntu/DishBot/install/table_plate_demo/share/table_plate_demo/local_setup.sh
+/home/ubuntu/DishBot/install/table_plate_demo/share/table_plate_demo/local_setup.zsh
+/home/ubuntu/DishBot/install/table_plate_demo/share/table_plate_demo/local_setup.dsv
+/home/ubuntu/DishBot/install/table_plate_demo/share/table_plate_demo/package.dsv
+/home/ubuntu/DishBot/install/table_plate_demo/share/ament_index/resource_index/packages/table_plate_demo
+/home/ubuntu/DishBot/install/table_plate_demo/share/table_plate_demo/cmake/table_plate_demoConfig.cmake
+/home/ubuntu/DishBot/install/table_plate_demo/share/table_plate_demo/cmake/table_plate_demoConfig-version.cmake
+/home/ubuntu/DishBot/install/table_plate_demo/share/table_plate_demo/package.xml

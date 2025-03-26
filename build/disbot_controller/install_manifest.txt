@@ -1,0 +1,15 @@
+/home/ubuntu/DishBot/install/disbot_controller/share/ament_index/resource_index/package_run_dependencies/disbot_controller
+/home/ubuntu/DishBot/install/disbot_controller/share/ament_index/resource_index/parent_prefix_path/disbot_controller
+/home/ubuntu/DishBot/install/disbot_controller/share/disbot_controller/environment/ament_prefix_path.sh
+/home/ubuntu/DishBot/install/disbot_controller/share/disbot_controller/environment/ament_prefix_path.dsv
+/home/ubuntu/DishBot/install/disbot_controller/share/disbot_controller/environment/path.sh
+/home/ubuntu/DishBot/install/disbot_controller/share/disbot_controller/environment/path.dsv
+/home/ubuntu/DishBot/install/disbot_controller/share/disbot_controller/local_setup.bash
+/home/ubuntu/DishBot/install/disbot_controller/share/disbot_controller/local_setup.sh
+/home/ubuntu/DishBot/install/disbot_controller/share/disbot_controller/local_setup.zsh
+/home/ubuntu/DishBot/install/disbot_controller/share/disbot_controller/local_setup.dsv
+/home/ubuntu/DishBot/install/disbot_controller/share/disbot_controller/package.dsv
+/home/ubuntu/DishBot/install/disbot_controller/share/ament_index/resource_index/packages/disbot_controller
+/home/ubuntu/DishBot/install/disbot_controller/share/disbot_controller/cmake/disbot_controllerConfig.cmake
+/home/ubuntu/DishBot/install/disbot_controller/share/disbot_controller/cmake/disbot_controllerConfig-version.cmake
+/home/ubuntu/DishBot/install/disbot_controller/share/disbot_controller/package.xml

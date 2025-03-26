@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ubuntu/ros2_ws/install/kortex_moveit_config/lib/python3.12/site-packages",
+        "/home/ubuntu/ros2_ws/install/grasp_training/lib/python3.12/site-packages",
+        "/home/ubuntu/ros2_ws/install/domain_randomization/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ubuntu/ros2_ws/install/kortex_moveit_config/lib/python3.12/site-packages",
+        "/home/ubuntu/ros2_ws/install/grasp_training/lib/python3.12/site-packages",
+        "/home/ubuntu/ros2_ws/install/domain_randomization/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

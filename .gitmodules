@@ -1,0 +1,9 @@
+[submodule "src/bullet3"]
+	path = src/bullet3
+	url = git@github.com:bulletphysics/bullet3.git
+[submodule "src/gz_ros2_control"]
+	path = src/gz_ros2_control
+	url = git@github.com:ros-controls/gz_ros2_control.git
+[submodule "src/ros2_kortex"]
+	path = src/ros2_kortex
+	url = https://github.com/Kinovarobotics/ros2_kortex.git

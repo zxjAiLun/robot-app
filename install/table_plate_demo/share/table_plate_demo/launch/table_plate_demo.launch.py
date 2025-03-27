@@ -40,57 +40,7 @@ def generate_launch_description():
         output='screen',
     )
 
-    # 创建简单的盘子SDF模型
-    plate_sdf = """<?xml version="1.0" ?>
-<sdf version="1.7">
-  <model name="plate">
-    <static>false</static>
-    <link name="plate">
-      <visual name="visual">
-        <geometry>
-          <cylinder>
-            <radius>0.1</radius>
-            <length>0.01</length>
-          </cylinder>
-        </geometry>
-        <material>
-          <ambient>1.0 1.0 1.0 1</ambient>
-          <diffuse>1.0 1.0 1.0 1</diffuse>
-          <specular>0.1 0.1 0.1 1</specular>
-        </material>
-      </visual>
-      <collision name="collision">
-        <geometry>
-          <cylinder>
-            <radius>0.1</radius>
-            <length>0.01</length>
-          </cylinder>
-        </geometry>
-        <surface>
-          <friction>
-            <ode>
-              <mu>0.5</mu>
-              <mu2>0.5</mu2>
-            </ode>
-          </friction>
-        </surface>
-      </collision>
-      <inertial>
-        <mass>0.5</mass>
-        <inertia>
-          <ixx>0.005</ixx>
-          <iyy>0.005</iyy>
-          <izz>0.0072</izz>
-        </inertia>
-      </inertial>
-    </link>
-  </model>
-</sdf>"""
-
-    # 将SDF内容写入临时文件
-    plate_sdf_path = os.path.join(pkg_table_plate_demo, "plate_temp.sdf")
-    with open(plate_sdf_path, "w") as f:
-        f.write(plate_sdf)
+    my_plate_model_path = os.path.join(os.getcwd(), 'src', 'my_plate_model')
 
     # 生成盘子的spawn命令
     spawn_plate = Node(
@@ -98,7 +48,7 @@ def generate_launch_description():
         executable='create',
         arguments=[
             '-name', 'plate',
-            '-file', plate_sdf_path,
+            '-file', os.path.join(os.getcwd(),'src', 'my_plate_model', 'plate.sdf'),
             '-x', '0.0',
             '-y', '0.0',
             '-z', '0.335',  # 桌子高度0.3 + 桌子厚度0.03 + 一点点间隙

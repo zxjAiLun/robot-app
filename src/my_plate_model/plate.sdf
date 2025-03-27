@@ -6,7 +6,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>file:///home/ubuntu/DishBot/src/bullet3/data/dinnerware/plate.obj</uri>
+            <uri>file:///home/ubuntu/DishBot/src/my_plate_model/plate.obj</uri>
           </mesh>
         </geometry>
         <material>
@@ -36,7 +36,7 @@
       <collision name="collision1">
         <geometry>
           <mesh>
-            <uri>file:///home/ubuntu/DishBot/src/bullet3/data/dinnerware/plate-collision01.obj</uri>
+            <uri>file:///home/ubuntu/DishBot/src/my_plate_model/plate-collision01.obj</uri>
           </mesh>
         </geometry>
       </collision>
@@ -44,7 +44,7 @@
       <collision name="collision2">
         <geometry>
           <mesh>
-            <uri>file:///home/ubuntu/DishBot/src/bullet3/data/dinnerware/plate-collision02.obj</uri>
+            <uri>file:///home/ubuntu/DishBot/src/my_plate_model/plate-collision02.obj</uri>
           </mesh>
         </geometry>
       </collision>
@@ -52,7 +52,7 @@
       <collision name="collision3">
         <geometry>
           <mesh>
-            <uri>file:///home/ubuntu/DishBot/src/bullet3/data/dinnerware/plate-collision03.obj</uri>
+            <uri>file:///home/ubuntu/DishBot/src/my_plate_model/plate-collision03.obj</uri>
           </mesh>
         </geometry>
       </collision>
@@ -60,7 +60,7 @@
       <collision name="collision4">
         <geometry>
           <mesh>
-            <uri>file:///home/ubuntu/DishBot/src/bullet3/data/dinnerware/plate-collision04.obj</uri>
+            <uri>file:///home/ubuntu/DishBot/src/my_plate_model/plate-collision04.obj</uri>
           </mesh>
         </geometry>
       </collision>
@@ -68,7 +68,7 @@
       <collision name="collision5">
         <geometry>
           <mesh>
-            <uri>file:///home/ubuntu/DishBot/src/bullet3/data/dinnerware/plate-collision05.obj</uri>
+            <uri>file:///home/ubuntu/DishBot/src/my_plate_model/plate-collision05.obj</uri>
           </mesh>
         </geometry>
       </collision>
@@ -76,7 +76,7 @@
       <collision name="collision6">
         <geometry>
           <mesh>
-            <uri>file:///home/ubuntu/DishBot/src/bullet3/data/dinnerware/plate-collision06.obj</uri>
+            <uri>file:///home/ubuntu/DishBot/src/my_plate_model/plate-collision06.obj</uri>
           </mesh>
         </geometry>
       </collision>
@@ -91,4 +91,4 @@
       </inertial>
     </link>
   </model>
-</sdf> 
+</sdf>

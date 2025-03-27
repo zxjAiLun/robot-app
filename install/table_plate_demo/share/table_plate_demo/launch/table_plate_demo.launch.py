@@ -90,17 +90,25 @@ def generate_launch_description():
         name='joint_state_publisher_gui'
     )
     
-    # 加载机器人模型到Gazebo
+    # 加载机器人模型到Gazebo，使其更明显可见
     spawn_kinova = Node(
         package='ros_gz_sim',
         executable='create',
         arguments=[
             '-topic', 'robot_description',
             '-entity', 'kinova_gen3',
-            '-x', '0.4',  # 将机械臂放置在桌子旁边
-            '-y', '0.0',  # 可以根据需要调整机械臂的y坐标
-            '-z', '0.3',  # 保持机械臂的高度与桌子相同
+            '-x', '0.3',  # 将机械臂放置在桌子上，靠近盘子位置
+            '-y', '0.0',  
+            '-z', '0.3',  # 与桌子相同的高度，确保机械臂底座在桌子上
         ],
+        output='screen',
+    )
+
+    # 创建一个简单的测试节点，打印消息确认启动成功
+    test_node = Node(
+        package='table_plate_demo',
+        executable='test_node.py',
+        name='test_node',
         output='screen',
     )
 
@@ -112,4 +120,7 @@ def generate_launch_description():
         joint_state_publisher,
         joint_state_publisher_gui,
         spawn_kinova,
+        # 移除不存在的夹爪控制器
+        # gripper_controller,
+        # gripper_action_server,
     ])
